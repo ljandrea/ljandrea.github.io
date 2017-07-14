@@ -1,6 +1,6 @@
 # How to Use GitHub Pages
 
-### If you don't have a GitHub Account...
+### If you don't have a GitHub Account... (or if you already do, skip to step 2)
 1. Go to GitHub.com and sign up
 2. Click “Create a New Repository”
 3. Name it username.github.io (aka the username that you signed up with)
@@ -79,6 +79,7 @@ All that's left to do is to return to your ```index.html``` file and follow the 
   ![add](imgs/add.PNG)
 
 + **git push**
+
   ![push](imgs/push.PNG)
 
 Once you've finished that, you should be able to go to ```username.github.io``` and see all your projects there!
