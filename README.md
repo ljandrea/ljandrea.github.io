@@ -27,6 +27,8 @@
 
 ![demo4](imgs/demo4.png)
 
+#### Note: Keep Command Prompt open while we do this tutorial!
+
 ## Setting Up Your GitHub Repository
 
 1. At the top right corner of this page, **fork** this repository.
@@ -53,16 +55,20 @@ We're almost there! In order to host your code on GitHub Pages, you're going to 
   ![setup](imgs/setup.png)
 
 3. Copy and paste your code from a Khan Academy project into the new sketch.
-4. Any lines of code that draw something (lines, ellipses, etc.) into a draw() function. It should look something like this:
+4. Any lines of code that draw something (lines, ellipses, etc.) into a ```void draw()``` function. It should look something like this:
 
   ![draw](imgs/draw.png)
 
 5. If you have any variables that control an animation (i.e. ```var x = 20```, ```var speed = 5```), declare those at the **beginning** of your code, before ```void setup()``` and be sure to **specify their type** by replacing ```var``` with ```int``` for integers and ```float``` for decimals.
 6. Any mouse or keyboard events might have to be changed as well. For example, ```mouseIsPressed``` will change to ```mousePressed```. Here's a link to the [Processing.js reference page](http://processingjs.org/reference/) to check for any other changes you'll have to make to your code.
 7. Once you get your code working just the way you want, save the sketch into the **sketches** folder in yourusername.github.io.
-
+8. Repeat these steps with any other projects you want to put on your website.
 
 ## Viewing Your Processing.js Projects on the Internet!
 
-All that's left to do is to return to your ```index.html``` file and follow the instructions there to get your sketches up and running!
-Once you've finished that, you should be able to go to ```yourusername.github.io``` and see them all there!
+All that's left to do is to return to your ```index.html``` file and follow the instructions there to get your sketches so that they'll show up on the Internet. Then, input the following commands into Command Prompt to push all your changes up to your GitHub repository. It should look a little something like this:
+
+**ADD SCREENSHOTS**
+git status, git add . , git commit -m "added and edited files to host Processing on GitHub Pages", git push
+
+Once you've finished that, you should be able to go to ```yourusername.github.io``` and see all your projects there!
