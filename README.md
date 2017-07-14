@@ -3,7 +3,7 @@
 ### If you don't have a GitHub Account... (or if you already do, skip to step 2)
 1. Go to GitHub.com and sign up
 2. Click “Create a New Repository”
-3. Name it username.github.io (aka the username that you signed up with)
+3. Name it **username.github.io** (aka the username that you signed up with)
 4. Search in the “Ask me Anything” bar **Command Prompt**
 5. Make sure the Command Prompt is saving to the Z drive. (Z:\>)
 6. Go to https://pages.github.com and scroll down to instruction #2 “Clone the repository”.
