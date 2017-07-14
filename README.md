@@ -36,9 +36,9 @@
 2. On your computer, find the folder named **github-pages-demo** in the Z drive.  
 3. Copy and paste the following files into the yourusername.github.io folder on your computer:
 
-  --**index.html**
 
-  --**processing.min.js**
++ **index.html**
++ **processing.min.js**
 
   Go ahead and replace the original index.html file you had initially.
 4. Finally, make a new folder called **sketches**. This is where you'll put all your Processing code.
@@ -51,8 +51,8 @@ We're almost there! In order to host your code on GitHub Pages, you're going to 
 2. In a new sketch, add these lines:
 
   ![setup](imgs/setup.png)
-3. Copy and paste your code from a Khan Academy project into the new sketch.
 
+3. Copy and paste your code from a Khan Academy project into the new sketch.
 4. Any lines of code that draw something (lines, ellipses, etc.) into a draw() function. It should look something like this:
 
   ![draw](imgs/draw.png)
