@@ -27,7 +27,7 @@
 
 ![demo4](imgs/demo4.png)
 
-##### When you're finished, go to your website: https://yourusername.github.io
+##### When you're finished, go to your website: https://username.github.io
 It should look something like this:
 
 ![hello_world](imgs/hello_world.png)
