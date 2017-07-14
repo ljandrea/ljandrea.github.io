@@ -27,6 +27,10 @@
 
 ![demo4](imgs/demo4.png)
 
+##### When you're finished, go to your website: https://yourusername.github.io
+It should look something like this:
+![hello_world](imgs/hello_world.png)
+
 #### Note: Keep Command Prompt open while we do this tutorial!
 
 ## Setting Up Your GitHub Repository
@@ -36,13 +40,10 @@
   ![fork](imgs/fork.png)
 
 2. On your computer, find the folder named **github-pages-demo** in the Z drive.  
-3. Copy and paste the following files into the yourusername.github.io folder on your computer:
-
-
-+ **index.html**
-+ **processing.min.js**
+3. Copy and paste the following files into the **yourusername.github.io** folder in the Z drive: **index.html** and  **processing.min.js**
 
   Go ahead and replace the original index.html file you had initially.
+
 4. Finally, make a new folder called **sketches**. This is where you'll put all your Processing code.
 
 ## Converting Your Khan Academy Code to Processing.js
