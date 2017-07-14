@@ -29,6 +29,7 @@
 
 ##### When you're finished, go to your website: https://yourusername.github.io
 It should look something like this:
+
 ![hello_world](imgs/hello_world.png)
 
 #### Note: Keep Command Prompt open while we do this tutorial!
