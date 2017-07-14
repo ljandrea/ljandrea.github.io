@@ -4,11 +4,11 @@
 1. Go to GitHub.com and sign up
 2. Click “Create a New Repository”
 3. Name it username.github.io (aka the username that you signed up with)
-4. Search in the “Ask me Anything” bar “Command Prompt”
+4. Search in the “Ask me Anything” bar **Command Prompt**
 5. Make sure the Command Prompt is saving to the Z drive. (Z:\>)
 6. Go to https://pages.github.com and scroll down to instruction #2 “Clone the repository”.
-7. Copy the code there and paste it to the command prompt and continue copying the code from there.
-8. Check on both GitHub and your computer to make sure you have a file called "index.html"
+7. Copy the code there and paste it to the Command Prompt and continue copying the code from there.
+8. Check on both GitHub and your computer to make sure you have a file called **index.html**
 
 ### Demo
 ##### Step 1:
