@@ -9,6 +9,7 @@ html {
 #logo {
     width: 6%;
     position: fixed;
+    z-index: 10;
 }
 
 h1, h3, a, button {
@@ -22,7 +23,7 @@ a.btn-outline-dark {
     border: 1px solid rgb(32, 32, 32) !important;
 }
 
-a.btn-outline-dark:hover {
+*/ button.btn-outline-dark:hover {
     background-color: rgb(32, 32, 32) !important;
     color: white !important;
 }
@@ -114,7 +115,20 @@ footer {
     color: #5bc0de !important;
 }
 
-.col-md-6>a {
+.col-md-6>a, #proj-cont a {
     font-family: 'Raleway', sans-serif !important;
-    color: #123E47;
+    color: #E76255;
+}
+
+#proj-cont {
+    font-size: 0.7em;
+    padding-bottom: 1.3em;
+}
+
+.container p {
+    font-size: 0.95em;
+}
+
+#github {
+    display: inline;
 }
