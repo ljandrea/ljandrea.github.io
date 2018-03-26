@@ -152,11 +152,9 @@ class Contact extends Component {
                     <a href='https://github.com/ljandrea' target="_blank">
                         <FontAwesome className='fab fa-github' name='github' />
                     </a>
+                    ljandrea@uw.edu
                     <a href='https://www.linkedin.com/in/ljandrea/' target="_blank">
                         <FontAwesome className='fab fa-linkedin' name='linkedin' />
-                    </a>
-                    <a href='ljandrea@uw.edu' target="_blank">
-                        <FontAwesome className='fas fa-envelope-square' name='email' />
                     </a>
                 </div>
             </section>

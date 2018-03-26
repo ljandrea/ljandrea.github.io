@@ -79,10 +79,13 @@ section:nth-child(odd) {
     margin-top: 3em;
 }
 
+#external-links, #external-links a {
+    color: #5bc0de !important;
+}
+
 #external-links a {
     padding: 0 1em;
     font-size: 1.5em;
-    color: #5bc0de !important;
 }
 
 footer {
