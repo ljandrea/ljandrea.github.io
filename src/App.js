@@ -22,7 +22,7 @@ class App extends Component {
                         <button id='to-bio'
                             // href='#bio'
                             onClick={() => {
-                                scrollToComponent(this.Bio, { offset: 0, align: 'top', duration: 400 })
+                                scrollToComponent(this.Bio, { offset: 0, align: 'top', duration: 400, ease: 'linear' })
                             }}
                             className='btn btn-outline-dark'>who am I?</button>
                     </div>
@@ -41,7 +41,6 @@ class App extends Component {
                         </div>
                     </div>
                     <button id='to-proj'
-                        // href='#projects' 
                         onClick={() => {
                             scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 400 })
                         }}
@@ -142,7 +141,6 @@ class App extends Component {
                         </div>
                     </div>
                     <button id='to-contact'
-                        // href='#contact' 
                         onClick={() => {
                             scrollToComponent(this.Contact, { offset: 0, align: 'top', duration: 400 })
                         }}
