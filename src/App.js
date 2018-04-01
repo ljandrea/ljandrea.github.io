@@ -64,42 +64,48 @@ class App extends Component {
                                     <h5>Kitch-A-Dee</h5>
                                 </a>
                                 <h6 style={{ fontSize: '75%' }}>Jan 2017 - Mar 2017</h6>
-                                <p id='kitch-des'>Solving the problem of food waste at home, Kitch-A-Dee is a 2-part system RFID chip + iOS app concept, enabling users to get real-time data of what they have in their kitchens.
+                                <p id='kitch-desc'>Solving the problem of food waste at home, Kitch-A-Dee is a 2-part RFID chip + iOS app concept, enabling users to get real-time data of what they have in their kitchens.
                                 Inspired by Amazon Go, we worked under the assumption that traditional barcoded products will be a thing of the past:
-                            <ul>
-                                        <li>
+                            <ul id='kitch-desc'>
+                                        <li id='kitch-desc'>
                                             RFID chip sensors are placed in the kitchen, synced via Bluetooth.
                                     </li>
-                                        <li>
-                                            Paired app displays the items users have at home, sends notifications when food is about to expire, has a suggested customizable grocery list, and even recommends recipes based on the ingredients in your kitchen.
-                                    </li>
+                                        <li id='kitch-desc'>
+                                            App features include:
+                                            <ul id='kitch-desc'>
+                                                <li id='kitch-desc'>Display of food items users have at home</li>
+                                                <li id='kitch-desc'>Notifications when food is about to expire</li>
+                                                <li id='kitch-desc'>A suggested customizable grocery list</li>
+                                                <li id='kitch-desc'>Recipe recommendations based on the ingredients in your kitchen</li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </p>
                             </div>
                             <div id='kitch' className='col'>
-                                <img id='kitch-img' src='./kitchadee.png' alt='kitch-a-dee logo' />
+                                <img id='kitch-img' src='./kitch-phone.png' alt='kitch-a-dee logo' />
                             </div>
                         </div>
                         <br /><br />
                         <div id='diversity' className='row'>
-                            <div id='div' className='col'>
+                            <div id='div' className='col col-md-6'>
                                 <img id='div-img' src='./diversity.png' alt='restaurant diversity map' />
                             </div>
                             <div className='col col-sm-12 col-md-6'>
                                 <a href='https://katiebre.shinyapps.io/info-201-git-R-done/' target="_blank"><h5>U.S. Restaurant Diversity</h5></a>
                                 <h6 style={{ fontSize: '75%' }}>Mar 2017 - Jun 2017</h6>
-                                <p>In a study of U.S. restaurant diversity, we employed the Yelp API to examine ten popular cuisines. The data retreived was showcased by different visualizations created in R, with libraries like ggplot and plotly, including:
-                                <ul>
-                                        <li>
+                                <p id='rest-desc'>In a study of U.S. restaurant diversity, we employed the Yelp API to examine ten popular cuisines. The data retreived was showcased by different visualizations created in R, with libraries like ggplot and plotly, including:
+                                <ul id='rest-desc'>
+                                        <li id='rest-desc'>
                                             A Word Cloud that compared the differences in how restaurants of various cuisines choose their names in Washington State
                                     </li>
-                                        <li>
+                                        <li id='rest-desc'>
                                             A Stacked Bar graph that compared restaurant type by price level in major U.S. cities
                                     </li>
-                                        <li>
+                                        <li id='rest-desc'>
                                             A Choropleth Map that displayed the mean restaurant rating by type in each state
                                     </li>
-                                        <li>
+                                        <li id='rest-desc'>
                                             A Scatter Plot that showed where each type of food lands on a scale of ratings vs. average price
                                     </li>
                                     </ul>
@@ -114,19 +120,19 @@ class App extends Component {
                             <div className='col col-sm-12 col-md-6'>
                                 <a href='http://students.washington.edu/ljandrea/INFO/info343-final/#/' target="_blank"><h5>iTimeline</h5></a>
                                 <h6 style={{ fontSize: '75%' }}>Feb 2018 - Mar 2018</h6>
-                                <p>iTimeline lets users search their favorite artists and learn about the progression of their careers via genre analysis, with data supplied by the iTunes API.
+                                <p id='time-desc'>iTimeline lets users search their favorite artists and learn about the progression of their careers via genre analysis, with data supplied by the iTunes API.
                                     Features comprise of:
-                                <ul>
-                                        <li>
+                                <ul id='time-desc'>
+                                        <li id='time-desc'>
                                             A radar chart that shows the number of singles and albums within a specific genre for a given artist
                                     </li>
-                                        <li>
+                                        <li id='time-desc'>
                                             A time-wise scatter plot mapping out the genre of the searched artist for their album of that year across their career.
                                     </li>
-                                        <li>
+                                        <li id='time-desc'>
                                             A timeline with album information and track previews.
                                     </li>
-                                        <li>
+                                        <li id='time-desc'>
                                             A comment section for users to express their feelings about their favorite artists
                                     </li>
                                     </ul>

@@ -102,16 +102,20 @@ footer {
 }
 
 .col>p {
-    text-align: justify;
+    text-align: left;
 }
 
 .col>img {
     text-align: center;
 }
 
-#kitch-img, #div-img, #time-img {
-    width: 90%;
-    border-radius: 10%;
+div .col {
+    width: 50%;
+}
+
+#div-img, #time-img {
+    padding-top: 1em;
+    width: 105%;
 }
 
 #proj-links a {
