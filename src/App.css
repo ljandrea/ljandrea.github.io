@@ -140,3 +140,8 @@ div .col {
 #github {
     display: inline;
 }
+
+#email-link {
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 1em !important;
+}

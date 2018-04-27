@@ -34,10 +34,10 @@ class App extends Component {
                     <div className='row'>
                         <div id='bio-text' className='col col-sm-12 col-md-7'>
                             <p>I'm Andrea Jorge, nice to meet you! I'm a 3rd-year student at the University of Washington majoring in Informatics, with focuses in software development and data science. I love technology, its ubiquity, and overall effect on the human experience. More specifically, I'm passionate about the role tech plays in women's rights and gender equality. My skills include Java, HTML & CSS, React.js, and R, just to name a few. </p>
-                            <p>When I'm not running around as a developer or an analyst, I'm a singer (despite what my showerhead might think), ukulele-player (because background music is always good), and foodie (if you're ever in Seattle and want recommendations, let me know!). Most importantly, though, I'm a daughter, sister, and friend.</p>
+                            <p>When I'm not running around as a developer or an analyst, I'm a singer (despite what my showerhead might think), ukulele-player (because background music is always good), and foodie (if you're ever in Seattle and want recommendations, let me know!). The best job, though, is being a daughter, sister, and friend.</p>
                         </div>
                         <div id='andrea' className='col'>
-                            <img id='andrea-img' src='./linkedin.jpg' alt='andrea jorge' />
+                            <img id='andrea-img' src='./Andrea1.jpg' alt='andrea jorge' />
                         </div>
                     </div>
                     <button id='to-proj'
@@ -168,8 +168,8 @@ class App extends Component {
                         <a href='https://github.com/ljandrea' target="_blank">
                             <FontAwesome className='fab fa-github' name='github' />
                         </a>
-                        ljandrea@uw.edu
-                    <a href='https://www.linkedin.com/in/ljandrea/' target="_blank">
+                        <a id='email-link' href={'mailto:ljandrea@uw.edu'}>ljandrea@uw.edu</a>
+                        <a href='https://www.linkedin.com/in/ljandrea/' target="_blank">
                             <FontAwesome className='fab fa-linkedin' name='linkedin' />
                         </a>
                     </div>
@@ -178,7 +178,7 @@ class App extends Component {
                 <footer>
                     From the inner workings of my mind &copy; 2018
                 </footer>
-            </div>
+            </div >
         );
     }
 }
