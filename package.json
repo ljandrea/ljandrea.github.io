@@ -1,7 +1,7 @@
 {
     "name": "ljandrea.github.io",
     "version": "0.1.0",
-    "homepage": "http://ljandrea.github.io/",
+    "homepage": "https://ljandrea.github.io/",
     "private": true,
     "dependencies": {
         "bootstrap": "^4.0.0",
@@ -14,7 +14,7 @@
     },
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -b master -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
