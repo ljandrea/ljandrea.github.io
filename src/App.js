@@ -59,7 +59,7 @@ class App extends Component {
                     <div style={{ paddingBottom: '3em' }} className='container'>
                         <div id='kitch-a-dee' className='row'>
                             <div className='col col-sm-12 col-md-6'>
-                                <a href='https://docs.google.com/viewer?url=https://github.com/ljandrea/ljandrea.github.io/raw/deployment/Final-Proto.pdf'
+                                <a href='https://drive.google.com/file/d/1SA1JrPFW3-pfjLwNHIm_LeAM8KKLH9QK/view?usp=sharing'
                                     target="_blank">
                                     <h5>Kitch-A-Dee</h5>
                                 </a>
@@ -160,7 +160,7 @@ class App extends Component {
                     <hr id='contact-div' />
                     <p>Let's connect!</p>
                     <a id='resume'
-                        href='https://docs.google.com/viewer?url=https://github.com/ljandrea/ljandrea.github.io/raw/deployment/Resume.pdf'
+                        href='https://drive.google.com/file/d/1jVtFJGYYrYBmFQi_EuUiBZ_PrCVEJAOx/view?usp=sharing'
                         target="_blank"
                         style={{ marginBottom: '1em' }}
                         className='btn btn-outline-info'>view my resume</a>
