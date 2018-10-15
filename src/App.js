@@ -160,7 +160,7 @@ class App extends Component {
                     <hr id='contact-div' />
                     <p>Let's connect!</p>
                     <a id='resume'
-                        href='https://drive.google.com/file/d/1jVtFJGYYrYBmFQi_EuUiBZ_PrCVEJAOx/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1O3qL6ZpYXYk3aLxLrnYXwM2jXcgWbutG/view?usp=sharing'
                         target="_blank"
                         style={{ marginBottom: '1em' }}
                         className='btn btn-outline-info'>view my resume</a>
